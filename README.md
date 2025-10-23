@@ -1,5 +1,5 @@
 # PhpSeven
-Collection of tests for new Features in PHP 7.*
+Collection of tests for new Features in PHP 7.* An overview of new features for each (sub) version is listed [here](doq/VersionHistory.md).
 
 
 ## PHP 7.2 
@@ -9,7 +9,7 @@ Collection of tests for new Features in PHP 7.*
 > [!NOTE]
 > [PHP Example](src/PhpSeven/Reports.php)
 
-In PHP 7.2.0, partial contravariance was introduced by removing type restrictions on parameters in a child method. As of PHP 7.4.0, full covariance and contravariance support was added.
+In [PHP 7.2.0](https://www.php.net/manual/en/migration72.new-features.php), partial contravariance was introduced by removing type restrictions on parameters in a child method. As of PHP 7.4.0, full covariance and contravariance support was added.
 
 - <i>Covariance</i> allows a child's method to return a __more specific__ <var>type</var> than the return type of its parent's method. 
 - <i>Contravariance</i> allows a parameter <var>type</var> to be __less specific__ in a child method, than that of its parent.
