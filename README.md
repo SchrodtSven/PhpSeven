@@ -6,6 +6,9 @@ Collection of tests for new Features in PHP 7.*
 
 ### Covariance and Contravariance ¶
 
+> [!NOTE]
+> [PHP Example](src/PhpSeven/Reports)
+
 In PHP 7.2.0, partial contravariance was introduced by removing type restrictions on parameters in a child method. As of PHP 7.4.0, full covariance and contravariance support was added.
 
 - <i>Covariance</i> allows a child's method to return a __more specific__ <var>type</var> than the return type of its parent's method. 
@@ -25,11 +28,11 @@ A type declaration is considered __more specific__ (*covariant*) in the followin
 
 - A type is removed from a union type (e.g., if ```int|float``` is changed to ```int```)
 - A type is added to an intersection type (e.g., if ```int is changed``` to ```int&float```)
-- A class type is changed to a child class type (e.g., if ```BaseReport``` is changed to ```DashReport```)
+- A class type is changed to a child class type (e.g., if ```Report``` is changed to ```DashReport```)
 
 
 A type declaration is considered __less specific__ (*contravariant*) in the following cases:
 
 - A type is added to a union type (e.g., if i```int``` is changed to ```int|float```)
 - A type is removed from an intersection type (e.g., if ```int&float``` is changed to ```int```)
-- A class type is changed to a parent class type (e.g., if ```DashReport``` is changed to ```BaseReport```)
+- A class type is changed to a parent class type (e.g., if ```DashReport``` is changed to ```Report```)
