@@ -17,7 +17,7 @@ namespace  SchrodtSven\PhpSeven;
 
 class Example
 {
-    private ?int $id = null;
+    private ?int $id = null; # I know: Nullable types are yet to come in 7.1...
 
     // declaration and return types
     public function mean(int ...$ints) : float
