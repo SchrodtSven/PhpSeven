@@ -1,5 +1,5 @@
 # PhpSeven
-Collection of tests for new Features in PHP 7.* An overview of new features for each (sub) version is listed [here](doq/VersionHistory.md).
+Collection of tests for new Features in PHP 7.* An overview of new features for each (sub) version is listed [here](doq/VersionHistory.md) as <var>ToDO-List</var>.
 
 
 ## PHP 7.2 

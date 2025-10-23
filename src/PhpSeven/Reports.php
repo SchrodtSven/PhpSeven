@@ -1,7 +1,8 @@
 <?php
+
 declare(strict_types=1);
 /**
- * Class demonstrating 
+ * Classes/interfaces demonstrating 
  * - Covariance and 
  * - Contravariance ¶
  * 
@@ -13,11 +14,11 @@ declare(strict_types=1);
  */
 
 
-namespace  SchrodtSven\PhpSeven;
+namespace SchrodtSven\PhpSeven;
 
 # Covariance
 
-printf("Covariance%s",PHP_EOL);
+printf("Covariance%s", PHP_EOL);
 
 abstract class  Report
 {
@@ -35,15 +36,15 @@ class DashReport extends  Report
 {
     public function render()
     {
-        printf("%s implemented with Plotly Dash%s", $this->name ,PHP_EOL);
+        printf("%s implemented with Plotly Dash%s", $this->name, PHP_EOL);
     }
 }
 
-class BIReport extends  Report 
+class BIReport extends  Report
 {
     public function render()
     {
-        printf("%s implemented with M$ Power BI%s", $this->name ,PHP_EOL);
+        printf("%s implemented with M$ Power BI%s", $this->name, PHP_EOL);
     }
 }
 
@@ -78,7 +79,7 @@ $bookOne->render();
 $bookTwo->render();
 
 
-printf("Contravariance%s",PHP_EOL);
+printf("Contravariance%s", PHP_EOL);
 
 class Account {}
 
@@ -95,16 +96,15 @@ abstract class User
 
     public function consume(BankAccount $account)
     {
-        printf("%s consumes %s%s", $this->name, $account::class ,PHP_EOL);
-        
+        printf("%s consumes %s%s", $this->name, $account::class, PHP_EOL);
     }
 }
 
 class FooUser extends User
 {
-    public function consume(Account $account) {
-        printf("%s consumes %s%s", $this->name,$account::class ,PHP_EOL);
-        
+    public function consume(Account $account)
+    {
+        printf("%s consumes %s%s", $this->name, $account::class, PHP_EOL);
     }
 }
 
