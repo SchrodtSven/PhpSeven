@@ -3,3 +3,4 @@ vendor/
 grube.*
 .DS_Store
 phpunit
+.phpunit.cache
