@@ -7,7 +7,7 @@ Collection of tests for new Features in PHP 7.*
 ### Covariance and Contravariance ¶
 
 > [!NOTE]
-> [PHP Example](src/PhpSeven/Reports)
+> [PHP Example](src/PhpSeven/Reports.php)
 
 In PHP 7.2.0, partial contravariance was introduced by removing type restrictions on parameters in a child method. As of PHP 7.4.0, full covariance and contravariance support was added.
 
