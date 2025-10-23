@@ -1,9 +1,9 @@
-# PHP 7.0 - [ ] 7.4 version history
+# PHP 7.0 - 7.4 version history
 
 These lists show for which parts of the history are 
 
- - [ ] Not yet demonstrated by a PHP example in [```src/PhpSeven/```](src/PhpSeven)
- - [ ] Throwable and Error hierarchy, unifying Exceptions and Errors
+ - [x] demonstrated by a PHP example in [```src/PhpSeven/README.md```](src/PhpSeven)
+ - [ ] not yet 
 
  ## PHP 7.0 (2015)
 
