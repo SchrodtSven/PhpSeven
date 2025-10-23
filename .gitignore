@@ -4,3 +4,4 @@ grube.*
 .DS_Store
 phpunit
 .phpunit.cache
+composer.lock
