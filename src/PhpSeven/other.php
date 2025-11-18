@@ -7,7 +7,7 @@ declare(strict_types=1);
  * - constant arrays ausing define
  * - Unicode codepoint escape syntax ¶
  * 
- * @author Sven Schrodt<sven@schrodt.club>
+ * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/PhpSeven
  * @package PhpSeven
  * @version 0.1
@@ -47,6 +47,7 @@ class A
 $getX = function () {
     return $this->x;
 };
+
 $getXCB = $getX->bindTo(new A, 'A'); // intermediate closure
 echo $getXCB();
 

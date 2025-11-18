@@ -6,7 +6,7 @@ declare(strict_types=1);
  * 
  * - Symmetric array destructuring  ¶
  * 
- * @author Sven Schrodt<sven@schrodt.club>
+ * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/PhpSeven
  * @package PhpSeven
  * @version 0.1
