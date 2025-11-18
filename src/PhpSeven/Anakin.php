@@ -47,11 +47,9 @@ class Anakin
 }
 
 
-// Tests moced to tests/AnakinTest.php
+// Tests moved to tests/AnakinTest.php
+
 // $entity = new Anakin(23.1);
-
 // assert($entity->isLessThan(33));
-
 // assert($entity->isGreaterThan(5));
-
 // assert($entity->isEqual(23.1));

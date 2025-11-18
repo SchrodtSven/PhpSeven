@@ -17,7 +17,7 @@ class AnakinTest extends TestCase
 
     public function testFoo()
     {
-        //@FIXE - use data provider
+        //@FIXME - use data provider
         $entity = new Anakin(23.1);
         $this->assertTrue($entity->isLessThan(33));
         $this->assertTrue($entity->isGreaterThan(5));
