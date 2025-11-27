@@ -2,7 +2,7 @@
 Collection of tests for new Features in PHP 7.* An overview of new features for each (sub) version is listed [here](doq/VersionHistory.md) as <var>ToDO-List</var>.
 
 > [!NOTE]
-> Jump directly to [PHP Examples](src/PhpSeven/Reports.php)
+> Jump directly to [PHP Examples](src/PhpSeven/)
 
 
 ## PHP 7.2 
